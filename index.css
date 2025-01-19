@@ -1,0 +1,72 @@
+.Open-Sans {
+    font-family: "Work Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+  }
+  /* nav style */
+  
+  .ooo{
+    background-image: url(images/developer.png),url(images/header_bg.png);
+   background-repeat: no-repeat;
+   background-position: top left, bottom right;
+   background-size: 150px 600px, auto;
+  }
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 230px;
+    
+  }
+  .nav-title{
+font-weight: 900;
+font-size: 45;
+  }
+.color{
+   color:  #FD6E0A;
+}
+.nav ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 51px;
+}
+.nav ul li a{
+  text-decoration: none;
+}
+/* dark-2 */
+.dark-2{
+   color: #474747;
+}
+.btn{
+ background-color: #FD6E0A;
+ color: white;
+ padding: 10px  15px;
+ border-radius: 5px;
+ border: none;
+}
+/* ::content */
+.banar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 35px 0 200px;
+  justify-content: space-between;
+}
+.banar .banar-content{
+  text-align: left;
+}
+.banar .banar-content .dark-2{
+  width: 200px;
+  height: 67px;
+  size: 45px;
+}
+.banar .banar-content .banar-head{
+  width: 500px;
+  height: 50px;
+}
