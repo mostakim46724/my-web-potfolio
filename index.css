@@ -11,6 +11,7 @@
    background-repeat: no-repeat;
    background-position: top left, bottom right;
    background-size: 150px 600px, auto;
+   border: 18px;
   }
 .nav{
     display: flex;
@@ -49,6 +50,7 @@ font-size: 45;
  padding: 10px  15px;
  border-radius: 5px;
  border: none;
+ 
 }
 /* ::content */
 .banar {
@@ -70,3 +72,137 @@ font-size: 45;
   width: 500px;
   height: 50px;
 }
+
+/* About */
+.about{
+  margin: 0 auto;
+  text-align: center;
+  width: 1140px;
+  margin-top: 130px;
+  background-color: #FFF8F3;
+  background-size: auto 1000px;
+}
+/* use all style */
+.section-title{
+font-size: 35px;
+font-weight: bold;
+color: #181818;
+text-align: center;
+}
+.section-driscryption{
+  font-size: 18px;
+  color: #757575;
+  text-align: center;
+}
+.about-itemes{
+  display: flex;
+  justify-content: space-around;
+}
+.iteme-title{
+color: #757575;
+}
+.iteme-driscryption{
+color: #474747;
+font-weight: bolder;
+}
+/* my skile */
+.what-i-do .my-skil{
+  margin: 145px 130px;
+
+}
+.my-skil-cotent{
+  padding: 10px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.4);
+}
+.my-skil-cotents{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+}
+/* my-skil-cotent */
+.lll{
+  margin: 160px 230px;
+}
+.img1{
+  font-weight: bold;
+  font-size: 20px;
+}
+.skils-detals{
+  font-size: 16px;
+  color: #757575;
+  /* opacity: 1; */
+  
+}
+/* edo-expreent  */
+.my-edca-and-expa{
+display: flex;
+justify-content: space-between;
+gap: 71px;
+}
+.section-title-i{
+  color: #474747;
+  font-weight: bold;
+  font-size: 30px;
+}
+.cd{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+}
+.dvd{
+font-weight: 600px;
+font-size: 20px;
+color: #757575;
+}
+.bbc{
+font-size: 16px;
+color: #757575;
+}
+.bt{
+  margin-top: 50px;
+  text-align: center;
+}
+/* footer */
+.end-footer{
+width: 1400px;
+height: 770px;
+background-color: #FFEADA;
+}
+.footer{
+  display: flex;
+  justify-content: left;
+  gap: 115px;
+}
+.footer-contents{
+  margin-right: 228px;
+  margin-top: 170px;
+}
+.footer-content{
+  margin-left: 240px;
+  margin-top: 170px;
+}
+.footer-head{
+  font-weight: bold;
+  font-size: 35px;
+  width: 354px;
+}
+.footer-discryption{
+  font-size: 16px;
+  color: #474747;
+  margin-top: 27px;
+}
+.footer-img{
+  margin-top: 50px;
+  gap: 15px;
+}
+.name{
+  width: 350px;
+  height: 40px;
+}
+.Message{
+  height: 150px;
+  width: 350px;
+}
+
